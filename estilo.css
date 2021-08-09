@@ -1,0 +1,240 @@
+
+    body{
+
+        background-color: white;
+        color: black;
+    }
+    header{
+        height: 100px;
+    }
+
+    nav li{
+        float:left;
+        width:18%;
+        padding:5px 10px;
+        background-color:white;
+        border:1px solid white;
+        text-align:center;
+        font: bold;
+        color: white;
+        }
+    a {
+        color: black;
+        font-size: x-large;
+        text-decoration: none;
+    }
+
+    a:hover {
+    color: yellow;
+    }
+
+    #logo{
+        background-color: white;
+        height: 70px;
+        width: 150px;
+        float: left;
+
+    }
+    #dia{
+        color: black;
+    }
+    #fecha{
+        background-color: white;
+        float: right;
+
+    }
+
+    #txtx{
+        float: left;
+        color: black;
+    }
+
+    #banner{
+        position:relative;
+        bottom: -70px;
+    }
+
+    #bannerimga{
+        display: block;
+        width: 400px;
+        height: 300px;
+        padding-left: 130px;
+    }
+
+    #bannerimgb{
+        display: block;
+        width: 400px;
+        height: 300px;
+        padding-right: 130px;
+    }
+
+
+
+    #banner:hover {
+        opacity: 0.3;
+
+    }
+
+    footer{
+
+        display:block;
+        color: white;
+        background-color:darkgray;
+        width: 100%;
+        height: 50px;
+        text-align: center;
+        position:fixed;
+        left: 0;
+        bottom: 0;
+
+    }
+
+
+
+/*Pagina de quienes*/
+
+    #fondo{
+
+        display: block;
+        background-image: url("fondo.jpg");
+        width: 60%;
+        background-position: center;
+        position: relative;
+        left: 20%;
+
+    }
+
+
+    #mision{
+    padding: 10px;
+    margin: auto;
+    }
+
+
+    #mision_txt{
+      background-color: white;
+      color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: justify;
+        font-size: large;
+    }
+
+    #mision_txt_center{
+      background-color: white;
+      color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        font-size: large;
+    }
+
+    #gerente{
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+        height: 300px;
+
+    }
+
+
+    /*producto*/
+
+
+    #fondop{
+
+        display: block;
+        background-image: url("fondo.jpg");
+        width: 60%;
+        background-position: center;
+        background-repeat: initial;
+        position: relative;
+        left: 20%;
+
+    }
+
+    #cosas{
+
+        height: 287px;
+        width: 510px;
+        position: relative;
+        margin: auto;
+        left: 15%;
+        -webkit-transform: scale(1.0);
+        transform: scale(1.0);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+
+    }
+
+    #cosas:hover{
+
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+
+    #titulo{
+
+        color: black;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: center;
+        font-size: xx-large;
+        font-weight: bold;
+        -webkit-transform: scale(1.0);
+        transform: scale(1.0);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+
+    }
+
+    #alineadoTextoImagenAbajo:hover{
+        text-shadow: 0 0 0.2em rgb(180, 180, 7), 0 0 0.2em rgb(180, 180, 7);
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+    #TextoImagen{
+            float: left;
+            padding-left: 11%;
+            padding-top: 5%;
+            padding-bottom: 5%;
+    }
+
+    #alineadoTextoImagenAbajo{
+      height: 200px;
+      width: 240px;
+      color: black;
+
+
+    }
+
+    #descripcion{
+
+
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        font-size: large;
+        font-weight: bold;
+        -webkit-transform: scale(1.0);
+        transform: scale(1.0);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+
+    }
+
+    #descripcion:hover
+
+    {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+
+    #form{
+        background-color: red;
+        border-radius: 5px;
+        color: white;
+
+    }
+
+    #form:hover{
+        opacity: 0.8;
+    }

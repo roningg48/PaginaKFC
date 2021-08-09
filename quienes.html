@@ -1,0 +1,63 @@
+<html>
+<head>
+
+    <link href="estilo.css" rel="stylesheet" type="text/css">
+
+</head>
+
+
+<body>
+    <header>    <!-- logo, menu y el dia de hoy -->
+        <nav>
+
+            <img  id="logo" src="https://1000marcas.net/wp-content/uploads/2020/01/KFC-logo.png" href="index.html">
+
+        </nav>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="quienes.html">Quiénes somos</a></li>
+                <li><a href="producto.html">Productos</a></li>
+                <li><a href="contacto.html">Contactenos</a></li>
+             </ul>
+        </nav>
+
+        <nav id="fecha">
+        <p id="txtx">Hoy es &nbsp </p>
+        <p id="dia"></p>
+        </nav>
+
+        <script>
+            var d = new Date();
+            var days = ["Domingo", "Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sabado"];
+            document.getElementById("dia").innerHTML = days[d.getDay()];
+        </script>
+
+
+    </header>
+
+    <nav id="fondo"> <!--contenido-->
+            <p id="mision_txt">KFC, es el resultado de un gran sueño y una historia llena de convicción que inicia cuando Harland Sanders, hijo de una familia de granjeros y conocido por las diferentes profesiones que realizó a lo largo de su vida, abre en 1930, su primer restaurante en un pequeño local de una gasolinera en Kentucky, llamado Sanders Court & Café
+                  .</p>
+
+            <img id="gerente" src="gerente.jpg" alt="">
+
+            <p id="mision_txt_center">Gerente de la empresa</p>
+    </nav>
+
+
+
+        <footer >
+
+            <p>Rolando Montenegro 2016. Sitio Web con los derechos reservados.</p>
+
+        </footer>
+
+
+</body>
+
+
+
+
+
+</html>

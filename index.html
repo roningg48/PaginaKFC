@@ -1,0 +1,64 @@
+<html>
+<head>
+
+    <link href="estilo.css" rel="stylesheet" type="text/css">
+
+
+</head>
+<body>
+    <header>    <!-- logo, menu y el dia de hoy -->
+        <nav>
+
+            <img  id="logo" src="https://1000marcas.net/wp-content/uploads/2020/01/KFC-logo.png" href="index.html">
+
+        </nav>
+        <nav>
+         <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="quienes.html">Quiénes somos</a></li>
+            <li><a href="producto.html">Productos</a></li>
+            <li><a href="contacto.html">Contactenos</a></li>
+         </ul>
+        </nav>
+
+        <nav id="fecha">
+        <p id="txtx">Hoy es &nbsp </p>
+        <p id="dia"></p>
+        </nav>
+
+        <script>
+            var d = new Date();
+            var days = ["Domingo", "Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sabado"];
+            document.getElementById("dia").innerHTML = days[d.getDay()];
+        </script>
+
+
+    </header>
+
+<!--contenido-->
+
+
+        <nav id="banner">
+            <a title="num3" href="quienes.html">
+            <img alt="num3"  id="bannerimga" align="left" src="https://www.khamaleonstudio.com/images/khamaleon-studio-es-aboutus.jpg"></a>
+              </nav>
+        <nav id="banner">
+            <a title="num3" href="producto.html">
+            <img alt="num3"  id="bannerimgb" align="right" src="https://www.kfccostarica.com/images/kfc/menu.png"></a>
+        </nav>
+
+
+    <footer>
+
+        <p>Rolando Montenegro. Sitio Web con los derechos reservados.</p>
+
+    </footer>
+
+
+</body>
+
+
+
+
+
+</html>

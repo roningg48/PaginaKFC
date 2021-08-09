@@ -1,0 +1,95 @@
+
+<html>
+<head>
+
+    <link href="estilo.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+    <header>    <!-- logo, menu y el dia de hoy -->
+        <nav>
+
+            <img  id="logo" src="https://1000marcas.net/wp-content/uploads/2020/01/KFC-logo.png" href="index.html">
+
+        </nav>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="quienes.html">Quiénes somos</a></li>
+                <li><a href="producto.html">Productos</a></li>
+                <li><a href="contacto.html">Contactenos</a></li>
+             </ul>
+        </nav>
+
+        <nav id="fecha">
+        <p id="txtx">Hoy es &nbsp </p>
+        <p id="dia"></p>
+        </nav>
+
+        <script>
+            var d = new Date();
+            var days = ["Domingo", "Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sabado"];
+            document.getElementById("dia").innerHTML = days[d.getDay()];
+        </script>
+
+
+    </header>
+
+
+    <nav id="portada"> <!--contenido-->
+        <p align="center">Ubicacion: Plaza Conquistador, Av. Domingo Díaz, Panamá<br>Correo: soporte@kfc.com
+
+        </p>
+        <p align="center">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d63044.193519596236!2d-79.5116041607115!3d9.039839631193287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e0!4m5!1s0x8fab572f9ade8bd7%3A0xb8688b10d330abfb!2sKFC%20%7C%20Plaza%20Conquistador%2C%20Av.%20Domingo%20D%C3%ADaz%2C%20Panam%C3%A1!3m2!1d9.0398366!2d-79.4765058!4m0!5e0!3m2!1ses!2spa!4v1628478711511!5m2!1ses!2spa" width="900" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>  </p>
+        <br><br><br>
+        <nav style="position: relative; left: 30%; width: 30%;">
+
+        <form>
+            Nombre &nbsp
+              <input type="text" id="reg_1"/><br /><br />
+            Apellido&nbsp
+            <input type="text" id="reg_2"/><br /><br />
+            Telefono&nbsp
+            <input type="text" id="reg_3"/><br><br />
+            Email &nbsp&nbsp&nbsp&nbsp&nbsp
+            <input type="text" id="reg_4"/><br><br />
+            Mensaje &nbsp
+            <input type="text" id="reg_5"/><br><br />
+
+            <input id="form" type="button" onclick="mostrar()" value="Enviar"/>
+            </form>
+        </nav>
+    </nav>
+    <br><br><br>
+    <script language="javascript">
+        function mostrar()
+        {
+            var reg_1=document.getElementById("reg_1");
+            var reg_2=document.getElementById("reg_2");
+            var reg_3=document.getElementById("reg_3");
+            var reg_4=document.getElementById("reg_4");
+            var reg_5=document.getElementById("reg_5");
+
+            document.write(
+            "<table cellpadding='5' cellspacing='0' border='1'>" +
+            "<tr><td>Nombre</td><td>Apellido</td><td>Telefono</td><td>Email</td><td>Mensaje</td></tr>"+
+            "<tr><td>"+reg_1.value+"</td><td>"+reg_2.value+"</td><td>"+reg_3.value+"</td><td>"+reg_4.value+"</td><td>"+reg_5.value+"</td></tr></table>"
+            );
+        }
+        </script>
+
+        <footer>
+
+            <p>Rolando Montenegro 2016. Sitio Web con los derechos reservados.</p>
+
+        </footer>
+
+
+</body>
+
+
+
+
+
+</html>
